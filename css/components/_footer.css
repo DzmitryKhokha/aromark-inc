@@ -1,0 +1,160 @@
+.footer {
+  padding: 80px 0;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgb(58,58,58);
+}
+
+.footer__left {
+  grid-column: 7 span;
+}
+
+.footer__logo img {
+  width: 250px;
+  margin-right: 60px;
+}
+
+.footer__top {
+  display: flex;
+  margin-bottom: 22px;
+}
+
+.footer__descr {
+  margin: 0;
+  width: 100%;
+  max-width: 495px;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.footer__form {
+  grid-column: 5 span;
+}
+
+.footer__address {
+  grid-column: 4 span;
+}
+
+.footer__nav {
+  grid-column: 8 span;
+}
+
+.footer__copyright {
+  grid-column: 12 span;
+  padding-top: 30px;
+  font-size: 12px;
+  line-height: 150%;
+  color: var(--white-color);
+}
+
+.footer__copyright span {
+  padding-left: 22px;
+  /*background-image: url("../img/heart.svg");*/
+  background-position: 2px center;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+}
+
+.footer-form__title {
+   margin-bottom: 24px;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 150%;
+   color: var(--white-color);
+ }
+
+.footer-form__items {
+  margin-bottom: 15px;
+}
+
+.form-field {
+  margin: 0;
+  width: 364px;
+}
+
+.form-field__input {
+  padding: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.footer-form__btn {
+  margin-left: 5px;
+  padding: 7px 50px;
+  font-size: 26px;
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
+
+.footer-form__descr {
+  margin: 0;
+  font-size: 12px;
+  line-height: 150%;
+}
+
+.footer-title {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.footer-address {
+  padding-top: 20px;
+  font-style: normal;
+}
+
+.footer-address__item {
+  display: block;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.footer-address__item:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+a {
+  color: inherit;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-address__name {
+  color: var(--white-color);
+}
+
+.footer-nav {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 54px;
+}
+
+.footer-nav__col:not(:last-child) {
+  margin-right: 125px;
+}
+
+.footer-nav__item:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.footer-nav__link {
+  font-size: 16px;
+  line-height: 160%;
+  color: inherit;
+}
+
+.footer__item {
+  width: 25px;
+  height: 25px;
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 30px;
+}

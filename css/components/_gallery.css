@@ -1,0 +1,31 @@
+.grid {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+
+.grid-item {
+    height: 400px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.grid-item iframe,
+.grid-item video {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.gallery__title {
+    max-width: 100%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}

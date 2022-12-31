@@ -1,0 +1,16 @@
+@import "css/_normalize.css";
+@import "css/_global.css";
+@import "css/_overall.css";
+@import "css/_variables.css";
+@import "css/components/_header.css";
+@import "css/components/_first.css";
+@import "css/components/_story.css";
+@import "css/components/_capabilities.css";
+@import "css/components/_services.css";
+@import "css/components/_remodeling.css";
+@import "css/components/_modal.css";
+@import "css/components/_gallery.css";
+@import "css/components/_comment.css";
+@import "css/components/_footer.css";
+@import "css/components/_media.css";
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');

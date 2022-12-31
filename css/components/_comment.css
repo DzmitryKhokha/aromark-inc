@@ -1,0 +1,119 @@
+.text-center {
+    max-width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.alert.alert-primary {
+    color: var(--dark-color);
+    border: none;
+}
+
+.alert.alert-success {
+    background-color: rgba(193, 215, 248, 0.34);
+    color: var(--dark-color);
+    border: none;
+}
+
+.btn-primary {
+    padding: 7px 22px;
+    font-size: 18px;
+    background-color: dimgray !important;
+    border: none!important;
+    border-radius: 3px;
+    letter-spacing: normal;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: rgb(30, 29, 29) !important;
+    box-shadow: 0 7px 15px 0 rgba(0,0,0,0.18);
+    -webkit-box-shadow: 0 7px 15px 0 rgba(0,0,0,0.18);
+    -moz-box-shadow: 0 7px 15px 0 rgba(0,0,0,0.18);
+}
+
+em {
+    color: #787A80;
+}
+
+.text-right {
+    padding: 20px 0 0 0;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.alert {
+    padding: 10px;
+    letter-spacing: normal;
+    border-radius: 6px;
+}
+
+.alert-primary {
+    margin-bottom: 2px;
+    font-family: Ubuntu, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.alert-success {
+    margin-bottom: 10px;
+    padding: 15px 10px 15px 25px;
+    font-size: 18px;
+    text-indent: 5px;
+}
+
+.form-control {
+    padding: 5px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+label {
+    padding: 5px 0 5px 10px;
+    font-size: 18px;
+}
+
+textarea {
+    width: 400px;
+    height: auto;
+}
+
+.comment__item {
+    display: flex;
+    flex-flow: column;
+    padding-top: 25px;
+}
+
+.comment__date {
+    padding-left: 20px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(120,122,128);
+}
+.comment__user-name {
+    padding-left: 18px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--dark-color);
+}
+
+.comment__descr {
+    padding: 15px 10px 15px 25px;
+    font-size: 18px;
+    text-indent: 5px;
+    background-color: rgb(234,242,252);
+    color: var(--dark-color);
+}

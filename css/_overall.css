@@ -1,0 +1,27 @@
+.container {
+    max-width: 1626px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.site-container {
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-reset {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+}
+
+.section__title {
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 80px;
+    color: var(--dark-color);
+}
